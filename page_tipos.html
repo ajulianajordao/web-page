@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang = 'pt-br'>
+
+<head>
+    <meta charset ='UTF-8'>
+    <meta name = 'viewport' content ='width=device.width, initial-scale=1.0'>
+    <title>Tipos</title>
+    <style>
+    body {
+        background-color: #4488AA;
+        color: #99EEEE;
+        font-family: stoke, Lucida Bright, liberation;
+        font-size: 16px;
+    }
+    
+    header {
+        display: block;
+        margin-bottom: 1px;
+    }
+
+    .ender {
+        float: right;
+        text-align: right;
+        font-size: 15px;
+        line-height: 140%;
+        font-family: Karla, verdana, Ubuntu;
+    }
+    a:visited {
+        color: #99EEEE;
+        text-decoration: none;
+    }
+    a:link {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .imgLogo {
+        
+        border-bottom: 3px #FFFFFF solid;
+        margin-bottom: 6px;
+        padding-bottom: 15px;
+    }
+    nav {
+        font-family: 'Stoke', 'Lucida Bright', 'Liberation';
+        display: block;
+        width: 20%;
+        float: left;
+        
+    }
+    nav ul {
+        list-style-image: url(Imagens\BrilhoMark.png);
+        color: #FFFFFF;
+        line-height: 230%;
+        margin-top: 40px;
+    }
+
+    section {
+        display: block;
+        width: 70%;
+        margin-bottom: 1px;
+    }
+    .listaTipos {
+    color: #FFFFFF;
+    padding: 10px 10px 10px 50px;
+    line-height: 180%;
+}
+
+.listaTipos ul {
+    color: #99FFFF;
+    list-style-type: disc;
+}
+
+.tabInfo {
+    border-collapse: collapse;
+    border: solid 1px #226699; 
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #000066;
+    font-size: 15px;
+    font-family: Karla, Verdana, Ubuntu;
+}
+
+.tabInfo td, .tabInfo th {
+    border: solid 1px #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+.linTH {
+    color: #FFFFFF;
+    background-color: #22BB66;
+    vertical-align: middle;
+    text-align: center;
+    border-color: #226699;
+}
+
+    
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class = 'ender'>
+            <address>
+                Av. Novaya Zemlya, 1870<br>
+                Cel: (21) 98765-4321<br>
+                <a href="mailto: contato@resfriglob.com.br">contato@resfriglob.com.br</a>                    
+            </address>
+            
+        </div>
+        <div class = 'imgLogo'>
+            <img src="Imagens/ResfGlobLogoDeitado.png" alt="Imagem logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="page_global_css.html">Apresentação</a></li><br>
+                <li><a href="Tipos.html">Tipos</a></li><br>
+                <li><a href="Estoque.html">Estoque</a></li><br>
+                <li><a href="Cadastro.html">Cadastro</a></li><br>
+                <li><a href="Compras.html">Compras</a></li>                          
+            </ul>
+
+        </nav>
+    </header>
+    <section>
+        <main>
+            <article>
+                <h2> Como escolher um ar-condicionado?</h2>
+                    <ol>
+                        <li>Tipo:</li>
+                            <ul class = 'listaTipos'>
+                                <li>de Parede</li>
+                                <li>Splinter</li>
+                                <li>Portátil</li>
+                            </ul>
+                        <li>
+                            Capacidade:
+                            
+                            <table class = tabInfo>
+                                <thead class="linTH">
+                                    <tr>
+                                        <th rowspan="2">
+                                            Área
+                                        </th>
+                                        <th colspan="2">
+                                            Incidência do sol
+                                        </th>
+                                    </tr>
+                                    <tr>    
+                                        <th>
+                                            Manhã
+                                        </th>
+                                        <th>
+                                            Tarde
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            9m²
+                                        </td>
+                                        <td>
+                                            7500 BTUs
+                                        </td>
+                                        <td>
+                                            9000 BTUs
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            12m²
+                                        </td>
+                                        <td>
+                                            9000 BTUs
+                                        </td>
+                                        <td>
+                                            10000 BTUs
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            25m²
+                                        </td>
+                                        <td>
+                                            12000 BTUs
+                                        </td>
+                                        <td>
+                                            15000 BTUs
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            50m2
+                                        </td>
+                                        <td>
+                                            21000 BTUs
+                                        </td>
+                                        <td>
+                                            30000 BTUs
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        
+                    </ol>
+                
+            </article>
+        </main>
+
+    </section>
+
+</body>
+
+<footer>
+
+
+</footer>
+</html>
